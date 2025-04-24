@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(34, 32, 36);
+}
+#Image{
+    width: 50% ;
+    height: 50% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+ul{
+    list-style-type:none;
+}
+table,td,th,tr{
+    border:1px solid RGB(165,42,42);
+}
+th{
+    font-style:italic;
+}
+td,th,tr{
+    padding:8px;
+}
+#image_métiers{ 
+    width : 300px ; 
+    height :auto ;
+}
+#ListePoint{
+    margin: 50px;
+    list-style:'- ';
+}
+input {
+    font-size : 14pt
+}
+div {
+    font-size : 18pt; 
+}
+a {
+    color: rgb(255, 255, 255)
+}
+a:hover{
+    color: rgba(111, 235, 126, 0.866);
+    border-bottom: 2px solid rgba(111, 235, 125, 0.651);
+}
+label {
+    display: inline-block ;
+    width : 150px ;
+    text-align : right ;
+    }
+    input {
+         margin-right: 10px;
+    }
+    .nb{
+        width : 120px ;
+        text-transform :uppercase ;
+    }
+
+div {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(72, 69, 76) ;
+}
+
+*{
+    margin-right: 0px;
+    padding: 0px;
+    font-family: "Gill Sans", sans-serif;
+    color: white ;
+}
+
+nav{
+    margin-right: 0px;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(84, 73, 98);
+    position: sticky;
+    top: 0px;
+    margin-bottom: 50px;
+}
+nav h1{
+    color: rgb(255, 229, 229);
+    text-align:center;
+    font-size: 30px;
+    margin: 0 auto;
+    background-color: rgb(84, 73, 98);
+    margin-top: 0px;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position:relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px rgba(72, 69, 76, 0.401);
+    background-color: rgb(72, 69, 76);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgba(200, 200, 200, 0.1);
+}
+.deroulant > a::after{
+    content:"▼";
+    font-size: 12px;
+}
+#divGrand{
+    margin-left:250px;
+    margin-right:250px;
+    background-color: rgb(72, 69, 76);
+}
+#ImageNSI{
+    width:925px;
+}
+button {
+    background-color: rgb(72, 69, 76);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 15px;
+    width: 260px;
+    margin: 25px;
+}
+#BuPre{
+    background-color: rgb(72, 69, 76);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 15px;
+    width: 315px;
+    margin: 25px;
+    padding: 15px;
+    float: left;
+    text-align:center;
+}
+#BuPre:hover{ 
+    color: rgba(111, 235, 126, 0.866);
+}
+#BuSuiv{
+    background-color: rgb(72, 69, 76);
+    text-align:center;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 15px;
+    width: 315px;
+    margin: 25px;
+    padding: 15px;
+    float: right;
+}
+#BuSuiv:hover{ 
+    color: rgba(111, 235, 126, 0.866);
+}
+#Here{
+    color: rgba(111, 235, 126, 0.866);
+}
